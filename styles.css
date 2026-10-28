@@ -1,0 +1,62 @@
+body{
+    background-color: #333333;
+    text-align: center;
+}
+
+#face{
+    background-color: yellow;
+    width: 490px;
+    height: 610px;
+    margin: 3px auto;
+    padding: 35px;
+}
+
+#eyes{
+    text-align: center;
+    margin: 35px;
+}
+
+.eye{
+    display: inline-block;
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    margin: 0px 5px;
+}
+
+.eye::after{
+    content: "";
+    display: block;
+    background-color: black;
+    width: 75px;
+    height: 75px;
+    margin: 30px 35px;
+    position: relative;
+}
+#mouth{
+    background-color: black;
+    width: 396px;
+    height: 288px;
+    margin: 0px auto;
+    padding-top: 35px;
+}
+
+#teeth{
+    text-align: center;
+    height: 40px;
+}
+
+.tooth{
+    display: inline-block;
+    background-color: white;
+    width: 36px;
+    height: 36px;
+    margin: 0 3px;
+}
+
+#tongue{
+    background-color: red;
+    width: 200px;
+    height: 160px;
+    margin: 85px auto 0;
+}
